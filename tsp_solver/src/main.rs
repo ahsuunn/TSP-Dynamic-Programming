@@ -9,7 +9,7 @@ fn tsp(
 ) -> (usize, Vec<usize>) {
     let n = dist.len();
 
-    // Base case: all cities visited
+    // Base case: Semua kota telah dikunjungi
     if visited.iter().all(|&x| x) {
         return (dist[pos][0], vec![0]);
     }
